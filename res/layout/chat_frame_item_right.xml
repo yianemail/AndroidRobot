@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <ImageView 
+        android:id="@+id/chat_frame_right_avator_iv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/image_discription"
+        android:src="@drawable/test_mehead" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/chat_frame_right_avator_iv"
+        android:background="@drawable/bg_chat_frame_right"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/chat_frame_right_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/chat_content"
+            android:textSize="18sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/chat_frame_right_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/chat_frame_right_content_tv"
+            android:layout_below="@+id/chat_frame_right_content_tv"
+            android:layout_marginTop="30dp"
+            android:text="@string/chat_date"
+            android:textSize="14sp"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+    
+</RelativeLayout>

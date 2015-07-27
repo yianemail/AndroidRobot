@@ -4,5 +4,7 @@
     <string name="app_name">zhy_slidingmenu</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+     <string name="image_discription">Hello world!</string>
+ <string name="chat_content">good</string>
+ <string name="chat_date">12:34</string>
 </resources>
